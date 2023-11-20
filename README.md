@@ -94,7 +94,7 @@ Kubernetes provides a way to schedule and deploy containers, scale them to your 
 
 
 
-***This is all that I've covered, but it's not exhaustive. It was just the basics. If you want to know more about Kubernetes, feel free to ask anything. I love to help you. You can contact me on [LinkedIn](linkedin.com.in/md-azfar-alam/)***
+***This is all that I've covered, but it's not exhaustive. It was just the basics. If you want to know more about Kubernetes, feel free to ask anything. I love to help you. You can contact me on [LinkedIn](www.https://linkedin.com.in/md-azfar-alam/)***
 
 
 ## Keep Learning & Keep Sharing.. ✨
