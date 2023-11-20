@@ -4,7 +4,7 @@ metadata:
   name: "azfarpod2"
   labels:
     dc: IN 
-    team:team1
+    team: team1
    
 
 spec:
