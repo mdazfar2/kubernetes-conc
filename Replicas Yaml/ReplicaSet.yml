@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: azfarrs1
+
+spec: 
+  replicas: 2
+  selector: 
+    matchLabels:
+       app: web
+    matchExpressions:
+      - { key: dc, operator: In, values: [ south ] }
+      - { key: region, operator: In, values: [ IN ] }
+   
+  
+  template:
+    metadata:
+      name: "azfarpod"
+      labels:
+        dc: south
+        region: IN 
+        app: web
+
+    spec:
+      containers:
+      - name: "azfarc1"
+        image: "vimal13/apache-webserver-php"
