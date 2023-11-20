@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: azfarrc1
+
+spec: 
+  replicas: 1 
+  selector: 
+   dc: IN
+  
+  template:
+    metadata:
+      name: "azfarpod"
+      labels:
+        dc: IN 
+   
+
+    spec:
+      containers:
+      - name: "azfarc1"
+        image: "vimal13/apache-webserver-php"
