@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata: 
+  name: azfarpv
+spec: 
+  accessModes: 
+    - ReadWriteOnce
+  capacity:
+    storage: 1G
+  hostPath:
+    path: /mnt/azfarpvc
