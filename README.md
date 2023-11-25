@@ -226,9 +226,20 @@ In the context of Kubernetes, a "rollout" typically refers to the process of upd
 
          --> Other relevant details about the RoleBinding configuration
 
-23.      
-     
+23. **To create new configmap attaching your own port in the .txt file**
 
+     ```bash
+     kubectl create configmap azfarcm --from-file myweb.txt
+     ```
+      - It is used to create a ConfigMap named "azfarcm" in your Kubernetes cluster. This ConfigMap is populated with the contents of a file named "myweb.txt."
+     
+        --> ``kubectl create configmap`` Initiates the creation of a ConfigMap.
+
+        --> ```azfarcm``` Specifies the name of the ConfigMap as "azfarcm."
+
+        --> ```--from-file myweb.txt:``` Populates the ConfigMap with the contents of the "myweb.txt" file.
+
+           - ConfigMaps are useful for storing configuration data that can be consumed by pods in a Kubernetes cluster.
 
 
 
