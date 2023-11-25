@@ -197,7 +197,31 @@ In the context of Kubernetes, a "rollout" typically refers to the process of upd
 
      - it will display a list of ClusterRoles along with details such as the name of the ClusterRole, the age, and other relevant information.
    
-21. 
+21. **To get rolebinding**
+
+     ```bash
+     kubectl get rolebinding -n testing
+     ```
+
+      - This command is used to retrieve information about RoleBindings in the specific namespace "testing" in your Kubernetes cluster. RoleBindings are used to bind roles to subjects (such as users or 
+        service accounts) within a specific namespace.
+
+22. **to test rolebinding**
+
+     ```bash
+     kubectl describe rolebinding -n testing
+     ```
+
+      - When you run this command, it will display information such as: 
+
+           --> Name of the RoleBinding
+           --> Namespace it belongs to ("testing" in this case)
+           --> Role associated with the RoleBinding
+           --> Subjects (users, groups, or service accounts) bound by the RoleBinding
+           --> Creation timestamp
+           --> Other relevant details about the RoleBinding configuration
+
+23.      
      
 
 
