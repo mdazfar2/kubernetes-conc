@@ -214,12 +214,17 @@ In the context of Kubernetes, a "rollout" typically refers to the process of upd
 
       - When you run this command, it will display information such as: 
 
-           --> Name of the RoleBinding
-           --> Namespace it belongs to ("testing" in this case)
-           --> Role associated with the RoleBinding
-           --> Subjects (users, groups, or service accounts) bound by the RoleBinding
-           --> Creation timestamp
-           --> Other relevant details about the RoleBinding configuration
+         --> Name of the RoleBinding
+
+         --> Namespace it belongs to ("testing" in this case)
+
+         --> Role associated with the RoleBinding
+
+         --> Subjects (users, groups, or service accounts) bound by the RoleBinding
+
+         --> Creation timestamp
+
+         --> Other relevant details about the RoleBinding configuration
 
 23.      
      
