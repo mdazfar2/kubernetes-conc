@@ -13,7 +13,7 @@ Kubernetes provides a way to schedule and deploy containers, scale them to your 
 
 ## Set up Kubernetes by installing Minikube:
 
-**If you want to set up Kubernetes by installing Minikube, just visit the [Kubernetes Lab-Setup](https://azfaralam.hashnode.dev/kubernetes-lab-setup). In this blog, you will find a step-by-step guide from start to finish, allowing you to easily complete your Kubernetes lab setup. So, what are you waiting for? Just click on [Kubernetes Lab-Setup](https://azfaralam.hashnode.dev/kubernetes-lab-setup)**
+*If you want to set up Kubernetes by installing Minikube, just visit the [Kubernetes Lab-Setup](https://azfaralam.hashnode.dev/kubernetes-lab-setup). In this blog, you will find a step-by-step guide from start to finish, allowing you to easily complete your Kubernetes lab setup. So, what are you waiting for? Just click on [Kubernetes Lab-Setup](https://azfaralam.hashnode.dev/kubernetes-lab-setup)**
 
 
 ## Basic Important Commands in Kubernetes -
@@ -269,7 +269,7 @@ Kubernetes Ingress is a set of rules that manage external access to the services
     ```
      -  It is used to retrieve information about Ingress resources in your Kubernetes cluster. Ingress is an API object that provides HTTP and HTTPS routing to services based on rules.
 
-## To know more about the Ingress-Minikube then visit once [Kubernetes-Ingress](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/) here you will get the whole command as well as yaml code also so visit once [Kubernetes-Ingress](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/)
+*To know more about the Ingress-Minikube then visit once [Kubernetes-Ingress](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/) here you will get the whole command as well as yaml code also so visit once [Kubernetes-Ingress](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/)*
 
 
 27. **To check network policy**
