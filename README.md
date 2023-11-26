@@ -4,7 +4,7 @@ Kubernetes, also known as K8s, is an open-source platform for managing container
 
 - Kubernetes orchestrates clusters of virtual machines and schedules containers to run on those virtual machines based on their available compute resources and the resource requirements of each container.
 - Containers are grouped into pods, the basic operational unit for Kubernetes, and those pods scale to your desired state.
-- Kubernetes also automatically manages service discovery, incorporates load balancing, tracks resource allocation, and scales based on compute utilization.
+- Kubernetes also automatically manages service discovery, incorporates load balancing, tracks resource allocation, and scales based on compute utilization..
 
 
 ## In Summary -
