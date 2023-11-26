@@ -242,9 +242,41 @@ In the context of Kubernetes, a "rollout" typically refers to the process of upd
            - ConfigMaps are useful for storing configuration data that can be consumed by pods in a Kubernetes cluster.
 
 
+## What is Kubernetes Ingress?
+
+Kubernetes Ingress is a set of rules that manage external access to the services in a Kubernetes cluster. It is an API object that allows you to configure routing protocols, typically via HTTPS/HTTP.  By using Ingress, you can consolidate your routing rules into a single resource.
+
+24. **To check Ingress**
+
+    ```bash
+    minikube addons enable ingress
+    ```
+
+25. **Verify that the NGINX Ingress controller is running**
+
+    ```bash
+    kubectl get pods -n ingress-nginx
+    ```
+
+> [!NOTE]
+>  It can take up to a minute before you see these pods running OK.
 
 
+26. **To check Ingress**
 
+    ```bash
+    kubectl get ingress
+    ```
+     -  It is used to retrieve information about Ingress resources in your Kubernetes cluster. Ingress is an API object that provides HTTP and HTTPS routing to services based on rules.
+
+## To know more about the Ingress-Minikube then visit once [Kubernetes-Ingress](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/) here you will get the whole command as well as yaml code also so visit once [Kubernetes-Ingress](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/)
+
+
+27. **To check network policy**
+
+     ```bash
+     kubectl get networkpolicy
+     ```
 
 
 
