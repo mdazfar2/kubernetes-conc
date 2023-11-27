@@ -280,6 +280,27 @@ Kubernetes Ingress is a set of rules that manage external access to the services
 
 
 
+## Important Commands in Kubernetes which you should known about -
+
+1. **To check the services in Kubernetes**
+
+    ```bash
+    kubectl api-resources
+    ```
+     - It display a list of available API resources in your Kubernetes cluster. When you run this command, it provides a list of resource types along with their short names, API group, and whether they 
+       are namespaced.
+
+2. **To get CustomResourceDefinitions**
+
+    ```bash
+    kubectl get crd
+    ```
+     - To retrieve information about CustomResourceDefinitions (CRDs) in your Kubernetes cluster. CRDs allow you to define custom resources and their behavior in a Kubernetes cluster, extending the API 
+       and enabling the creation of custom resources.
+
+
+
+
 
 
 ***This is all that I've covered, but it's not exhaustive. It was just the basics. If you want to know more about Kubernetes, feel free to ask anything. I love to help you. You can contact me on [LinkedIn](https://linkedin.com/in/md-azfar-alam)***
