@@ -1,4 +1,4 @@
-# What is Kubernetes?..
+# What is Kubernetes?.
 
 Kubernetes, also known as K8s, is an open-source platform for managing containerized workloads and services. facilitates both declarative configuration and automation. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation. 
 
