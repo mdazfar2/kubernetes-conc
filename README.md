@@ -1,6 +1,6 @@
 # What is Kubernetes?
 
-Kubernetes, also known as K8s, is an open-source platform for managing containerized workloads and services. facilitates both declarative configuration and automation. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation. ........
+Kubernetes, also known as K8s, is an open-source platform for managing containerized workloads and services. facilitates both declarative configuration and automation. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation. .......
 
 - Kubernetes orchestrates clusters of virtual machines and schedules containers to run on those virtual machines based on their available compute resources and the resource requirements of each container.
 - Containers are grouped into pods, the basic operational unit for Kubernetes, and those pods scale to your desired state.
