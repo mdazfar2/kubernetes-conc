@@ -303,7 +303,7 @@ Kubernetes Ingress is a set of rules that manage external access to the services
 
 
 
-***This is all that I've covered, but it's not exhaustive. It was just the basics. If you want to know more about Kubernetes, feel free to ask anything. I love to help you. You can contact me on [LinkedIn](https://linkedin.com/in/md-azfar-alam)***
+***This is all that I've covered, but it's not exhaustive. It was just the basics. If you want to know more about Kubernetes, feel free to ask anything. I love to help you. You can contact me on [LinkedIn](https://linkedin.com/in/md-azfar-alam) or [Discord](https://discordapp.com/users/877531143610708028)***
 
 
 ## Keep Learning & Sharing.. ✨
